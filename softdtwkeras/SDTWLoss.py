@@ -1,8 +1,9 @@
 import tensorflow as tf
 import numpy as np
 
-
 from softdtwkeras.soft_dtw_fast import py_softmin3
+
+
 class SDTWLoss(tf.keras.losses.Loss):
     def __init__(self, gamma: float = 1.0):
         super(SDTWLoss, self).__init__()

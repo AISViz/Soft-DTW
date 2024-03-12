@@ -1,8 +1,8 @@
 import numpy as np
 import tensorflow as tf
 
-from sdtw import distance as sdtw_distance
-from sdtw import SoftDTW, soft_dtw_tf as tf_soft_dtw
+from softdtwkeras import distance as sdtw_distance
+from softdtwkeras import SoftDTW, soft_dtw_tf as tf_soft_dtw
 
 
 if __name__ == '__main__':
