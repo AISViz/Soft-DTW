@@ -1,7 +1,11 @@
 # Soft-Dynamic Timt Warping (DTW) for TensorFlow-Keras
 Soft-DTW loss function for keras Tensforflow 
 
+# python libraries
 
+`conda install numpy scipy scikit-learn cython nose`
+
+`python3 -m pip install tensorflow==2.10`
 
 # Setup
 
