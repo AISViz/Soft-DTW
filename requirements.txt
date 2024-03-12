@@ -2,5 +2,5 @@ nose
 numpy
 scipy
 cython
-tensorflow
 scikit-learn
+tensorflow==2.10
