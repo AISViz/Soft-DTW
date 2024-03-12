@@ -7,4 +7,6 @@ Soft-DTW loss function for keras Tensforflow
 
 `cython sdtw/soft_dtw_fast.pyx`
 
+`python setup.py build`
+
 `python setup.py build_ext --inplace`
