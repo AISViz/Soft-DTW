@@ -1,4 +1,4 @@
-# Soft-DTW-TF-Keras
+# Soft-Dynamic Timt Warping (DTW) for TensorFlow-Keras
 Soft-DTW loss function for keras Tensforflow 
 
 
