@@ -5,10 +5,8 @@
 # cython: boundscheck=False
 # cython: wraparound=False
 
-import numpy as np
-cimport numpy as np
-np.import_array()
 
+cimport numpy as np
 
 from libc.float cimport DBL_MAX
 from libc.math cimport exp, log
