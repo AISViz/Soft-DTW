@@ -3,4 +3,4 @@ numpy
 scipy
 cython
 scikit-learn
-tensorflow==2.10
+tensorflow==2.11.1
