@@ -1,5 +1,5 @@
 # Soft-Dynamic Time Warping (Soft-DTW) for TensorFlow-Keras
-Soft-DTW loss function for keras Tensforflow 
+Soft-DTW loss function for batch processing in keras Tensforflow.  
 
 # python libraries
 
