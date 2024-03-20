@@ -14,9 +14,11 @@ As some python libraries are prerequisite to run this loss funciton.
 The execution of this loss function is tested on tf~v2. User can install `tensorflow-gpu` for executing the model on gpu.
 
 # Setup
+- Compiling the cython file.
 
 `cython sdtw/soft_dtw_fast.pyx`
 
+- Building the package
 `python setup.py build`
 
 `python setup.py build_ext --inplace`
