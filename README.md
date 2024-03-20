@@ -53,3 +53,6 @@ model.compile(optimizer='adam', loss=lossclass_sdtw, run_eagerly=True)
 
 model.fit(input_tensor, output_tensor, epochs=5)
 ```
+
+
+PLEASE, feel free to post any issue or required upgrade in the current package. Thanks
