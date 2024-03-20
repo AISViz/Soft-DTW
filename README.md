@@ -5,10 +5,13 @@ This repository provides the implementation of Soft-DTW as loss function for bat
 
 
 # python libraries
+As some python libraries are prerequisite to run this loss funciton. 
 
 `conda install numpy scipy scikit-learn cython nose`
 
 `python3 -m pip install tensorflow==2.10`
+
+The execution of this loss function is tested on tf~v2. User can install `tensorflow-gpu` for executing the model on gpu.
 
 # Setup
 
