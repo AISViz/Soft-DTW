@@ -1,5 +1,6 @@
 # Soft-Dynamic Time Warping (Soft-DTW) for TensorFlow-Keras
-Soft-DTW loss function for batch processing in keras Tensforflow. To speed up the process, Cython function **`min(a,b,c, gamma)`** is used.
+Soft-DTW loss function for batch processing in keras Tensforflow. To speed up the process, Cython function **`min(a,b,c, gamma)`** is used. The function For each batch,  first calculates the euclidean distance matrix
+
 
 # python libraries
 
