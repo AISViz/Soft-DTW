@@ -24,7 +24,8 @@ The execution of this loss function is tested on tf~v2. User can install `tensor
 `python setup.py build_ext --inplace`
 
 # Example
-```import tensorflow as tf
+```python
+import tensorflow as tf
 from tensorflow.keras import layers
 import numpy as np
 from tensorflow import keras
@@ -32,10 +33,10 @@ from tensorflow import keras
 from softdtwkeras.SDTWLoss import SDTWLoss
 
 np.random.seed(42)
-    input_data = np.random.random((128, 5, 2))
-    output_data = np.random.random((128, 3, 2))
+input_data  = np.random.random((128, 5, 2))
+output_data = np.random.random((128, 3, 2))
 
-input_tensor = tf.convert_to_tensor(input_data, dtype=tf.float32)
+input_tensor  = tf.convert_to_tensor( input_data, dtype=tf.float32)
 output_tensor = tf.convert_to_tensor(output_data, dtype=tf.float32)
 
 # Define the model
